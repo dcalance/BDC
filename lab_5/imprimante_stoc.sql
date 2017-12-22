@@ -1,0 +1,12 @@
+
+CREATE TABLE imprimante_stoc(
+Cod INT NOT NULL,
+Model VARCHAR(4) NOT NULL,
+Color VARCHAR(2) NOT NULL,
+Tip VARCHAR(6) NOT NULL,
+Pret FLOAT NOT NULL
+);
+
+INSERT INTO imprimante_stoc
+SELECT * 
+FROM imprimante
